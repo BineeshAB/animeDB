@@ -1,6 +1,6 @@
 .anime-title{
     padding: 70px 0;
-    height: calc(100vh - 122px);
+    min-height: calc(100vh - 122px);
 }
 .anime-content{
     display: grid;
