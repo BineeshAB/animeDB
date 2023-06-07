@@ -200,28 +200,5 @@ const animedata = [
             action: 8
         },
         videolink: "N/A"
-    },
-    {
-        id: 10,
-        name: "High School DxD",
-        image: "https://m.media-amazon.com/images/I/81tuBUF1UpL.jpg",
-        type: "Series",
-        genres: ["Comedy", "Demons", "Ecchi", "Harem", "Romance", "School", "Shounen"],
-        engDUB: "Yes",
-        status: "Completed",
-        seasons: 4,
-        episodes: {
-            season1: 12,
-            season2: 12,
-            season3: 12,
-            season4: 12
-        },
-        rating: {
-            story: 7,
-            characters: 7,
-            songs: 6,
-            action: 7
-        },
-        videolink: "N/A"
     }
 ];
