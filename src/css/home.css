@@ -1,0 +1,44 @@
+.homepage{
+  position: relative;
+  width: 100%;
+}
+.homepage-content{
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+.homepage-image{
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background: linear-gradient(180deg, var(--darkSecondaryColor), var(--darkBgColor));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homepage-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+  filter: grayscale(100%) blur(1.5px) brightness(40%);
+}
+.homepage-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.homepage-title h1{
+  color: var(--darkTextColor);
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+}
+.color{
+  color: var(--darkAccentColor);
+}
+.homepage-title{
+  color: var(--darkTextColor);
+}

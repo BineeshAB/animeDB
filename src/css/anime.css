@@ -1,0 +1,76 @@
+.anime-title{
+    padding: 70px 0;
+    height: calc(100vh - 122px);
+}
+.anime-content{
+    display: grid;
+    grid-template-columns: calc(100% - 68%) auto;
+}
+.anime-content .anime-image{
+    height: calc(100vh - 262px);
+    border-radius: 5px;
+    margin: 0 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--darkSecondaryColor), var(--darkBgColor));
+}
+.anime-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+    transition: 0.2s ease-in-out;
+}
+.anime-details{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.anime-name, .anime-rating-div, .anime-status-div, .anime-seasons-div, .faq-div{
+    margin: 20px 0;
+}
+.anime-name{
+    font-size: 2rem;
+}
+.anime-rating-div{
+    margin-bottom: 50px;
+    padding: 7px 20px;
+    background: var(--darkSecondaryColor);
+    width: fit-content;
+    border-radius: 5px;
+    color: var(--darkPrimaryColor);
+}
+#anime-rating{
+    padding-left: 5px;
+    color: var(--darkTextColor);
+}
+.faq-div{
+    margin-top: 50px;
+}
+.faq-div details{
+    cursor: pointer;
+    background: rgba(12, 17, 44, 0.5);
+    transition: 1s ease-in-out;
+}
+.faq-div summary{
+    margin-top: 20px;
+    padding: 20px;
+    background: var(--darkSecondaryColor);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq-div summary:after{
+    content: "\002B";
+    font-size: 1.3rem;
+}
+details[open] summary:after{
+    content: "\00D7";
+    font-size: 1.3rem;
+}
+.faq-div details p{
+    margin: 0;
+    padding: 20px;
+}

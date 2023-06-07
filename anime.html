@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="src/img/AnimeDB-Logo-fabicon.png" type="image/x-icon">
+        <title>AnimeDB</title>
+        <link rel="stylesheet" href="./src/css/style.css">
+        <link rel="stylesheet" href="./src/css/header.css">
+        <link rel="stylesheet" href="./src/css/footer.css">
+        <link rel="stylesheet" href="./src/css/anime.css">
+    </head>
+    <body>
+        <header class="header" id="header">
+            <div class="site-logo">
+                <a href="index.html">
+                    <img src="src/img/AnimeDB-logo.png" alt="Anime Database Site Logo">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="active">Home</a></li>
+                    <li><a href="series.html">Series</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="bodySection anime-title">
+            <div class="container">
+                <div class="anime-content" id="anime-content">
+                    <div class="anime-image" id="anime-image"></div>
+                    <div class="anime-details" id="anime-details">
+                        <div class="anime-name" id="anime-name">One Piece</div>
+                        <div class="anime-rating-div" id="anime-rating-div">
+                            &#9734 <span id="anime-rating"></span>
+                        </div>
+                        <div class="anime-status-div" id="anime-status-div">
+                            <b>Status:</b> <span id="anime-status"></span>
+                        </div>
+                        <div class="anime-genres-div" id="anime-genres-div">
+                            <b>Genres:</b> <span id="anime-genres"></span>
+                        </div>
+                        <div class="anime-seasons-div" id="anime-seasons-div">
+                            <b>No of Season(s):</b> <span id="anime-seasons"></span>
+                        </div>
+                        <div class="anime-episodes-div" id="anime-episodes-div">
+                            <b>No of Episodes(s):</b> <span id="anime-episodes"></span>
+                        </div>
+                        <div class="faq-div" id="faq-div">
+                            <h3>Frequently Asked Questions</h3>
+                            <details aria-expanded="false">
+                                <summary>In English Dubbed Available?</summary>
+                                <p id="dub-available"></p>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer" id="footer">
+            Copyright @ 2020 - 2023
+        </footer>
+
+        <script src="./src/js/animedata.js"></script>
+        <script src="./src/js/animedetails.js"></script>
+        
+    </body>
+</html>

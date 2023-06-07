@@ -1,0 +1,24 @@
+.series-page .container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.series-page-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+@media all and (max-width: 1200px){
+}
+@media all and (max-width: 992px){
+}
+@media all and (max-width: 768px){
+}
+@media all and (max-width: 540px){
+    .series-page-content{
+        justify-content: center;
+    }
+}
+@media all and (max-height: 540px){
+    
+}
